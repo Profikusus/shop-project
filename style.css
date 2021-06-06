@@ -124,7 +124,19 @@ body {
     height: 50px;
 }
 .bin{
+    position: relative;
     width: 33.3%;
     height: 80%;
     float: left;
+}
+/* .position-form a{
+    position: absolute;
+    left: 25%;
+    top: 35%;
+} */
+.bin > a{
+position: relative;
+    left: 25px;
+    bottom: -15px;
+    border-radius: ;
 }
