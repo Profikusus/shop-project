@@ -135,6 +135,7 @@ body {
     height: 100%;
     top: 5px;
     background-color: white;
+    display: block;
 }
 .img{
     position: relative;
