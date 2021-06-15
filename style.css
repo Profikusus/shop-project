@@ -125,6 +125,8 @@ button{
     background-image: url(./images/search.png);
     background-color: #2c71b8;
     /* left: 10px; */
+    background-position: center;
+   background-repeat: no-repeat;
 }
 .input-changes:placeholder{
     color: #2c71b8;
