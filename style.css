@@ -96,7 +96,10 @@ li:hover >a{
 }
 .col-md-9{
     width: 75%;
+}
+.form-search{
     height: 50px;
+    width: 100%;
 }
 .form{
     border: 1px solid #2c71b8;
@@ -116,6 +119,7 @@ li:hover >a{
    color: #2c71b8;
    left: 5px;
    bottom: 3px;
+   font-family: 'Roboto', sans-serif;
 }
 .search{
     width: 30px;
@@ -133,6 +137,8 @@ li:hover >a{
 ::placeholder{
     color: #2c71b8;
     margin-right: 15px;
+    font-size: 21px;
+    font-family: 'Roboto', sans-serif;
 }
 .cart{
     background-image: url(./images/bin.png);
