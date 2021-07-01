@@ -402,3 +402,22 @@ sup{
     background-repeat: no-repeat;
     color: #2c71b8;   
 }
+input[type="checkbox"]{
+    display: none;
+}
+label{
+    padding-left: 20px;
+}
+label::before{
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid white;
+    vertical-align: middle;
+    margin-left: -10px;
+    margin-right: 10px;
+}
+input[type="checkbox"]:checked + label::before{
+    background-color: white;
+}
